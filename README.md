@@ -17,7 +17,7 @@ As the example, I used random forest regression to predict the Tc of materials, 
 ## Result
 The result is visualized in graph (x-y axis), x-axis refers measured Tc (based on dataset) while y-axis is predicted Tc (based on ML) respectively. 
 <br>
-From the prediction, the R^{2}
+From the prediction, the \R^{2}
 <img width="624" alt="image" src="https://user-images.githubusercontent.com/26571248/205536262-3b7029bc-cd3a-4ce9-beb0-d771c8966952.png">
 
 
