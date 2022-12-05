@@ -8,11 +8,12 @@ Superconductor is a set of physical properties observed in certain materials whe
 ## Method
 ### Dataset
 The dataset itself was extracted from NIMS Database (https://dice.nims.go.jp/news/2021/12/20211221.html).
-The daset consists of chemical compound and Tc (Temperature when the material start behaving as superconductor)
+The daset consists of chemical compound and Tc (Temperature when the material start behaving as superconductor).
+The total of dataset is around 1200 data and later it would be devided into training and test (80:20).
 ### Data Cleansing
 To provide the realistic dataset, I ignore empty data and purposely remove debatable materials, known-as unconvetional superconductor (Fe, Cu, Mn, etc).
 ### Machine Learning
-As the example, I used random forest regression to predict the Tc of materials, This method had been studied by Stanev, et.al (https://www.nature.com/articles/s41524-018-0085-8) and confirmed the accuracy.
+As the example, I used random forest regression to predict the Tc of materials, This method had been studied by Stanev, et.al (https://www.nature.com/articles/s41524-018-0085-8) and confirmed the accuracy. In order to extract the descriptors, I accomodated Xenonpy Lib developed by Yamada, et.al (https://pubs.acs.org/doi/10.1021/acscentsci.9b00804). The descriptors was automatically established by the system converting from chemical compound. The total of descriptors are 290.
 
 ## Result
 The result is visualized in graph (x-y axis), x-axis refers measured Tc (based on dataset) while y-axis is predicted Tc (based on ML) respectively. 
