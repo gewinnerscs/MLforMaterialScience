@@ -9,3 +9,6 @@ Superconductor is a set of physical properties observed in certain materials whe
 ### Dataset
 The dataset itself was extracted from NIMS Database (https://dice.nims.go.jp/news/2021/12/20211221.html).
 The daset consists of chemical compound and Tc (Temperature when the material start behaving as superconductor)
+### Data Cleansing
+To provide the realistic dataset, I ignore empty data and purposely remove debatable materials, known-as unconvetional superconductor (Fe, Cu, Mn, etc).
+
