@@ -11,4 +11,8 @@ The dataset itself was extracted from NIMS Database (https://dice.nims.go.jp/new
 The daset consists of chemical compound and Tc (Temperature when the material start behaving as superconductor)
 ### Data Cleansing
 To provide the realistic dataset, I ignore empty data and purposely remove debatable materials, known-as unconvetional superconductor (Fe, Cu, Mn, etc).
+### Machine Learning
+As the example, I used random forest regression to predict the Tc of materials, This method had been studied by Stanev, et.al (https://www.nature.com/articles/s41524-018-0085-8) and confirmed the accuracy.
+
+## Result
 
